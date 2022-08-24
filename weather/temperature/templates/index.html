@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Weather</title>
+
+</head>
+
+<body>
+
+ <div id="display" style="text-align:center; margin-top:50px; background: blue">
+   <h1> Weather App </h1>
+ </div>
+
+ <div class="one" style="text-align:center">
+    <form method="post">
+      {% csrf_token %}
+      <div>
+        <input type="text" name="city" placeholder="Search for city"; style="text-align:center">
+        <div style="margin-top:10px">
+          <button type="submit">Click</button>
+        </div>
+      </div>
+    </form>
+ </div>
+
+  <div class="one">
+    {% if temp %}
+    <div style="text-align:center">
+        <h5>Temp is : {{temp}}</h5>
+    </div>
+    {% endif %}
+  </div>
+</body>
+
+</html>
