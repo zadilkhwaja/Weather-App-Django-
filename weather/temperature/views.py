@@ -8,7 +8,7 @@ def index(request):
         
         source = urllib.request.urlopen(
              'https://api.openweathermap.org/data/2.5/weather?q='
-                    + city + '&appid=c94f9a8e774eb330e946d1ac1648f220').read()
+                    + city + '&appid=make_sure_to_add_your_unique_api_key_here').read()
 
         temp_data = json.loads(source)
         temp_in_kelvin = str(temp_data['main']['temp']) + ' K'
