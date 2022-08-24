@@ -20,22 +20,22 @@ Django files:- \
 Project name: Weather \
 App name: Temperature 
 
-<img src="https://user-images.githubusercontent.com/46615169/186302411-89f313b5-7516-4eca-b710-52da3783a3c7.JPG" width="900" height="500">
+<img src="https://user-images.githubusercontent.com/46615169/186302411-89f313b5-7516-4eca-b710-52da3783a3c7.JPG" width="600">
 
 
 Index.html file:- 
 
-<img src="https://user-images.githubusercontent.com/46615169/186302419-f8933508-4f95-46dd-99be-11833c95b838.JPG" width="900" height="500">
+<img src="https://user-images.githubusercontent.com/46615169/186302419-f8933508-4f95-46dd-99be-11833c95b838.JPG" width="600">
 
 
 Views.py file:- 
 
-<img src="https://user-images.githubusercontent.com/46615169/186302432-f9ce4dd7-1802-4b9f-803e-23c42f34c57f.JPG" width="900" height="500">
+<img src="https://user-images.githubusercontent.com/46615169/186302432-f9ce4dd7-1802-4b9f-803e-23c42f34c57f.JPG" width="600">
 
 
 Weather app:- 
  
-<img src="https://user-images.githubusercontent.com/46615169/186302402-edb6b55c-72d8-4d3c-929e-6f4019069611.JPG" width="900" height="500">
+<img src="https://user-images.githubusercontent.com/46615169/186302402-edb6b55c-72d8-4d3c-929e-6f4019069611.JPG" width="600">
 
 
 #### This project is just for practice and is in initial stages feel free to ask any questions or add something if i missed out!
