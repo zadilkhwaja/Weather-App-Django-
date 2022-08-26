@@ -26,7 +26,6 @@ def index(request):
                 + city + '&appid=make_sure_to_add_your_unique_api_key_here').read()
     data = {}
     temp_data = json.loads(weather_api)
-    temp_in_kelvin = str(temp_data['main']['temp']) + ' K'
     temp_in_celcius = str(round((temp_data['main']['temp'] -  273.15),2))
     temp_in_fahrenheit = str(round((((temp_data['main']['temp'] -  273.15) * 9/5) + 32),2))
     data['temp_in_celcius'] = temp_in_celcius  
